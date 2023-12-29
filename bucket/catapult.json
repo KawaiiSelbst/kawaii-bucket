@@ -6,7 +6,7 @@
     "license": "MIT License",
     "architecture": {
         "64bit": {
-            "url": "",
+            "url": "https://github.com/qrrk/Catapult/releases/download/$version/catapult-win-x64-$version.exe#/catapult.exe",
             "hash": "4bb9cfd1d9f0e7dd2fc15540b1b46c61c81548f3899e232d3ec4b2689987ff2d",
             "bin": "catapult.exe"
         }
