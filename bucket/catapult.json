@@ -18,6 +18,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/qrrk/Catapult/releases/download/$version/catapult-win-x64-$version.exe#/catapult.exe"
+            }
         }
     }
 }
