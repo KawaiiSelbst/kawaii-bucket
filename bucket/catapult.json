@@ -11,6 +11,17 @@
             "bin": "catapult.exe"
         }
     },
+    ,
+    "shortcuts": [
+        [
+            "catapult.exe",
+            "Catapult CDDA Launcher"
+        ]
+    ],
+    "persist": [
+        "catapult_settings.json",
+        "dda"
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/qrrk/Catapult/releases",
         "jsonpath": "$[0].tag_name"
