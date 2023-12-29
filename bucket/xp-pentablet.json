@@ -1,0 +1,10 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
+    "description": "XP-Pen Pentablet driver",
+    "version": "3.4.2.230217",
+    "url": "https://www.xp-pen.com/download/file/id/2473/pid/461/ext/zip.html#dl.zip",
+    "installer": {
+        "script": "run_installer ",
+        "args": "./XPPenWin_3.4.2.230217.exe"
+    }
+}
