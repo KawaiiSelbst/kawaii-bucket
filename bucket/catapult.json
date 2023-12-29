@@ -1,15 +1,15 @@
 {
     "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
-    "version": "0",
+    "version": "23.12a",
     "description": "A cross-platform launcher for Cataclysm: DDA and BN",
     "homepage": "https://github.com/qrrk/Catapult",
     "license": "MIT License",
     "architecture": {
         "64bit": {
             "url": "",
-            "hash": "",
-            "bin": ["catapult.exe"]
-        },
+            "hash": "4bb9cfd1d9f0e7dd2fc15540b1b46c61c81548f3899e232d3ec4b2689987ff2d",
+            "bin": "catapult.exe"
+        }
     },
     "checkver": {
         "url": "https://api.github.com/repos/qrrk/Catapult/releases",
