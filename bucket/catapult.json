@@ -1,5 +1,6 @@
 {
     "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
+    "version": "0",
     "description": "A cross-platform launcher for Cataclysm: DDA and BN",
     "homepage": "https://github.com/qrrk/Catapult",
     "license": "MIT License",
