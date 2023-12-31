@@ -1,12 +1,12 @@
 {
-    "version": "2023-12-30-1932",
+    "version": "2023-12-31-0003",
     "description": "Roguelike in a post-apocalyptic world (with sprite-based graphics, experimental build)",
     "homepage": "https://cataclysmdda.org",
     "license": "CC-BY-SA-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CleverRaven/Cataclysm-DDA/releases/download/cdda-experimental-2023-12-30-1932/cdda-windows-tiles-sounds-x64-msvc-2023-12-30-1932.zip",
-            "hash": "1dd1e805c1425e92b3216d0a9dd6702b7237e478b528b1eb808a248e01c0992f"
+            "url": "https://github.com/CleverRaven/Cataclysm-DDA/releases/download/cdda-experimental-2023-12-31-0003/cdda-windows-tiles-sounds-x64-msvc-2023-12-31-0003.zip",
+            "hash": "a9c2a419fd240ed9902ed58aa9252cbbf9d51337b7fb6b513deef8181742ad27"
         }
     },
     "shortcuts": [
