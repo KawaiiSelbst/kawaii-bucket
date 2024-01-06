@@ -24,7 +24,8 @@
     ],
     "persist": [
         "catapult_settings.json",
-        "dda"
+        "dda",
+        "bn"
     ],
     "checkver": {
         "url": "https://api.github.com/repos/qrrk/Catapult/releases",
