@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/vercel/hyper/releases/download/v4.0.0-canary.5/Hyper-4.0.0-canary.5-x64.exe#/dl.7z",
-            "hash": "sha512:r9e8pJ19JtA8Tsm4twQdwDwxuIbjOBPQzphAFaNnat2FipFlowHJDZFLspvr4lQA8YQWt1rNZ7DLAWhCIR6X2Q",
+            "hash": "EF0EE8B74F38448C8DD29EAE38179D74441116859078726AC1AD47366D9314EA",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
