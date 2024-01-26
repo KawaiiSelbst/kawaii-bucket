@@ -20,18 +20,4 @@
             "Hyper"
         ]
     ],
-    "checkver": {
-        "github": "https://github.com/vercel/hyper"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/vercel/hyper/releases/download/v$version/Hyper-Setup-$version.exe#/dl.7z",
-                "hash": {
-                    "url": "$baseurl/latest.yml",
-                    "regex": "sha512:\\s+$base64"
-                }
-            }
-        }
-    }
 }
