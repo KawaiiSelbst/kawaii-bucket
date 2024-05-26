@@ -1,13 +1,13 @@
 {
     "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
-    "version": "23.12a",
+    "version": "24.05a",
     "description": "A cross-platform launcher for Cataclysm: DDA and BN",
     "homepage": "https://github.com/qrrk/Catapult",
     "license": "MIT License",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qrrk/Catapult/releases/download/23.12a/catapult-win-x64-23.12a.exe#/catapult.exe",
-            "hash": "4bb9cfd1d9f0e7dd2fc15540b1b46c61c81548f3899e232d3ec4b2689987ff2d",
+            "url": "https://github.com/qrrk/Catapult/releases/download/24.05a/catapult-win-x64-24.05a.exe#/catapult.exe",
+            "hash": "23c486551bc41b2fdd3b4a6fef42998119f96526be397f3a7ea2d178e2d907cf",
             "bin": "catapult.exe"
         }
     },
@@ -18,9 +18,9 @@
         ]
     ],
     "pre_install": [
-    "@('catapult_settings.json') | ForEach-Object {",
-    "    if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" -ItemType File | Out-Null }",
-    "}"
+        "@('catapult_settings.json') | ForEach-Object {",
+        "    if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" -ItemType File | Out-Null }",
+        "}"
     ],
     "persist": [
         "catapult_settings.json",
