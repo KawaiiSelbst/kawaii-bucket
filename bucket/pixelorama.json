@@ -15,6 +15,9 @@
             "extract_dir": "windows-32bit"
         }
     },
+    "post_install": [
+        "New-Item -Name 'override.cfg'"
+    ],
     "bin": "Pixelorama.exe",
     "shortcuts": [
         [
