@@ -1,0 +1,27 @@
+{
+    "homepage": "https://github.com/friction2d/friction/",
+    "description": "Friction is a powerful and versatile motion graphics application that allows you to create vector and raster animations for web and video.",
+    "license": "GPL-3.0-or-later",
+    "version": "0.9.6.1",
+    "bin": "friction.exe",
+    "shortcuts": [
+        [
+            "friction.exe",
+            "Friction"
+        ]
+    ],
+    "url": "https://github.com/friction2d/friction/releases/download/v0.9.6.1/friction-0.9.6.1-windows-x64.7z",
+    "hash": "2a2c092cab25982cf2dae0c2a928dbe2d4bc03cc569ef217abdd47b2df4b5dcb",
+    "extract_dir": "friction-0.9.6.1",
+    "checkver": {
+        "github": "https://github.com/friction2d/friction/"
+    },
+    "autoupdate": {
+        "url": "https://github.com/friction2d/friction/releases/download/v$version/friction-$version-windows-x64.7z",
+        "hash": {
+            "url": "https://github.com/friction2d/friction/releases/download/v$version/friction-$version.txt",
+            "find": "$sha256\\s\\s$basename"
+        },
+        "extract_dir": "friction-$version"
+    }
+}
