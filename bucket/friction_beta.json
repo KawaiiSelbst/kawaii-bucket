@@ -7,5 +7,6 @@
     "hash": "2167079f1d3552a561c3ce5d5e8fe21eca9883c8c554dcfee274ee50d3ded5a6",
     "extract_dir": "friction-1.0.0-beta.2",
     "bin": "friction.exe",
+    "persist": "config",
     "shortcuts": [["friction.exe", "Friction"]]
 }
