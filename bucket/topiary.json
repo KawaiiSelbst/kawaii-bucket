@@ -9,7 +9,7 @@
     "github": "https://github.com/tweag/topiary"
   },
   "autoupdate": {
-    "url": "https://github.com/tweag/topiary/releases/download/$version/topiary-cli-x86_64-pc-windows-msvc.zip",
+    "url": "https://github.com/tweag/topiary/releases/download/v$version/topiary-cli-x86_64-pc-windows-msvc.zip",
     "hash": {
       "url": "$baseurl/topiary-cli-x86_64-pc-windows-msvc.zip.sha256"
     }
