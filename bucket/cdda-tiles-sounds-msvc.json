@@ -6,10 +6,7 @@
     "identifier": "CC-BY-SA-3.0,GPL-2.0+,OFL-1.0,BSL-1.0,Zlib,MIT,BSD(libbacktrace)",
     "url": "https://github.com/CleverRaven/Cataclysm-DDA/blob/master/LICENSE.txt"
   },
-  "64bit": {
-    "url": "https://github.com/CleverRaven/Cataclysm-DDA/releases/download/0.H-RELEASE/cdda-windows-with-graphics-and-sounds-x64-2024-11-23-1857.zip",
-    "hash": "9207b220a43668dc9993a9bfb1aae7923ed08e6e9acd31846ced2708360be0b7"
-  },
+  "url": "https://github.com/CleverRaven/Cataclysm-DDA/releases/download/0.H-RELEASE/cdda-windows-with-graphics-and-sounds-x64-2024-11-23-1857.zip",
   "shortcuts": [
     [
       "cataclysm-tiles.exe",
