@@ -1,0 +1,53 @@
+{
+  "version": "4.3",
+  "description": "A feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface.",
+  "homepage": "https://redotengine.org/",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/Redot-Engine/redot-engine/releases/download/4.3-stable/Redot_v4.3-stable_win64.exe.zip"
+    },
+    "32bit": {
+      "url": "https://github.com/Redot-Engine/redot-engine/releases/download/4.3-stable/Redot_v4.3-stable_win32.exe.zip"
+    },
+    "arm64": {
+      "url": "https://github.com/Redot-Engine/redot-engine/releases/download/4.3-stable/Redot_v4.3-stable_windows_arm64.exe.zip"
+    }
+  },
+  "pre_install": [
+    "Get-Item \"$dir\\Redot_*_console.exe\" | Rename-Item -NewName 'redot.console.exe'",
+    "Get-Item \"$dir\\Redot_*.exe\" | Rename-Item -NewName 'redot.exe'"
+  ],
+  "bin": [
+    [
+      "redot.console.exe",
+      "redot"
+    ]
+  ],
+  "shortcuts": [
+    [
+      "redot.exe",
+      "Redot Engine"
+    ]
+  ],
+  "checkver": {
+    "url": "https://github.com/Redot-Engine/redot-engine/releases/latest",
+    "regex": "(?<version>[\\d\\w.]+)-stable"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/Redot-Engine/redot-engine/releases/download/$version-stable/Redot_v$version-stable_win64.exe.zip"
+      },
+      "32bit": {
+        "url": "https://github.com/Redot-Engine/redot-engine/releases/download/$version-stable/Redot_v$version-stable_win32.exe.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/Redot-Engine/redot-engine/releases/download/$version-stable/Redot_v$version-stable_windows_arm64.exe.zip"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/SHA512-SUMS.txt"
+    }
+  }
+}
