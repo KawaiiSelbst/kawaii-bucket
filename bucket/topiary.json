@@ -1,10 +1,10 @@
 {
-    "version": "0.6.1",
+    "version": "0.7.0",
     "homepage": "https://topiary.tweag.io",
     "bin": "topiary.exe",
-    "hash": "8b64b72e3b5411eaecd917d4b379b52bf0c92b2c71c5254e3d69d7f46b271159",
+    "hash": "255741030566a3d6785060d55e72a749524460ef8dcc5e3e8db2211c2ff22fff",
     "license": "MIT License",
-    "url": "https://github.com/tweag/topiary/releases/download/v0.6.1/topiary-cli-x86_64-pc-windows-msvc.zip",
+    "url": "https://github.com/tweag/topiary/releases/download/v0.7.0/topiary-cli-x86_64-pc-windows-msvc.zip",
     "checkver": {
         "github": "https://github.com/tweag/topiary"
     },
